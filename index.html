@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에이브</title>
+    <link href="img/logo/favicon-01.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- jQuery를 가장 먼저 로드 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- 나머지 스크립트들도 defer 속성을 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/EasePack.min.js'></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="masthead" class="site-header">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo/logo-01.png" alt="logo"></a>
+            </div>
+            <nav>
+                <!-- <div class="nav-header">
+                    <ul>
+                        <li><a href="#">AUDITION</a></li>
+                        <li><a href="#">RECRULT</a></li>
+                    </ul>
+                    <div class="close-btn">
+                        <img src="img/svg/close.svg" alt="close">
+                    </div>
+                </div> -->
+                <ul>
+                    <li><a href="#">ABOUT</a>
+                        <ul class="sub">
+                            <li><a href="#">INTRODUTION</a></li>
+                            <li><a href="#">EXECUTIVES</a></li>
+                            <li><a href="#">BRAND IDENTITY</a></li>
+                            <li><a href="#">HEAD OFFICE</a></li>
+                            <li><a href="#">PRODUCER CENTER</a></li>
+                            <li><a href="#">HISTORY</a></li>
+                        </ul>
+                    </li>
+                    <!-- ABOUT JG -->
+                    <li><a href="#">Stdios</a>
+                        <ul class="sub">
+                            <li><a href="#">DESIGN</a></li>
+                            <li><a href="#">PAINTING</a></li>
+                            <li><a href="#">COMPOSING</a></li>
+                            <li><a href="#">WRITE</a></li>
+                            <li><a href="#">ORTHER</a></li>
+                        </ul>
+                    </li>
+                    <!-- ARTISTS -->
+                    <li><a href="#">NEWS</a>
+                        <ul class="sub">
+                            <li><a href="#">NOTICE</a></li>
+                            <li><a href="#">REPORT</a></li>
+                        </ul>
+                    </li>
+                    <!-- NEWS -->
+                    <li><a href="#">CAREES</a>
+                        <ul class="sub">
+                            <li><a href="#">PEOPLE</a></li>
+                            <li><a href="#">LIFE</a></li>
+                            <li><a href="#">RECRULT</a></li>
+                        </ul>
+                    </li>
+                    <!-- SUSTAINABLTY -->
+                    <li><a href="#">IR</a>
+                        <ul class="sub">
+                            <li><a href="#">BOARD</a></li>
+                            <li><a href="#">SHAREOLDING</a></li>
+                            <li><a href="#">ANNOUNCEMENT</a></li>
+                            <li><a href="#">DISCLOSURES</a></li>
+                            <li><a href="#">STOCKS</a></li>
+                        </ul>
+                    </li>
+                    <!-- INVESTORS -->
+                </ul>
+                <!-- 서브메뉴 변경 -->
+                <div class="sub-bg"></div>
+            </nav>
+            <div class="top-menu">
+                <ul class="lan">
+                    <li><a href="#">KO</a></li>
+                    <li><a href="#">EN</a></li>
+                    <li><a href="#">CN</a></li>
+                    <li><a href="#">JP</a></li>
+                </ul>
+                <ul class="btn">
+                    <li><button>Pricing</button></li>
+                    <li><button>Login</button></li>
+                    <li><button>Try AIVibe</button></li>
+
+                </ul>
+            </div>
+        </header>
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <div id="main" class="site-main">
+                    <!-- s1 -->
+                    <section class="s1">
+                        <div class="mainScreen">
+                            <div class="main-container" style="height: 919px;">
+                                <div class="mainBox">
+                                    <div class="mainBoxBG">
+                                        <div class="mainBoxBGWrap">
+                                            <div class="mainBoxBG-item">
+                                                <iframe width="1920" height="1080" 
+                                                src="https://www.youtube.com/embed/iVw5CIgLhVM?controls=0&autoplay=1&mute=1&loop=1&playlist=iVw5CIgLhVM" 
+                                                title="YouTube video player" frameborder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="mainBoxBG-item">
+                                                <iframe width="1920" height="1080" src="https://www.youtube.com/embed/3V6thSM20Do?si=MI_mckDm0z0LO-p4&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=3V6thSM20Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="mainBoxBG-img"></div>
+                                        </div>
+                                    </div>
+                                    <!-- BG -->
+                                    <div class="mainBoxText">
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text">AI</span>
+                                        </div>
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text">POWERS</span>
+                                        </div>
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text">AUTHENTIC</span>
+                                        </div>
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text">CREATIVE</span>
+                                        </div>
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text">EXPRESSION</span>
+                                        </div>
+                                        <div class="mainBoxText-item">
+                                            <span class="reveal-text-text">독보적인 창작의 결과물을 만들어<br>
+                                                확장하고 재창조함으로써 아티스트의<br>
+                                                감성과 아이디어를 현실로 만듭니다.<br>
+                                                AI와 함께, 당신의 작품을 보여주세요.</span>
+                                        </div>
+                                    </div>
+                                    <!-- Text -->
+                                </div>
+                                <!-- mainBox -->
+                                <div class="mainScroll">
+                                    <a href="#scrollSection" class="mainScroll-link">
+                                        <span class="mainScroll-text"></span>
+                                        <span class="mainScroll-arrow"></span>
+                                    </a>
+                                </div>
+                                <!-- Scroll -->
+                            </div>
+                            <!-- main-container -->
+                        </div>
+                    </section>
+                    <!-- s2  -->
+                    <section class="s2">
+                        <div id="scrollSection" class="news">
+                            <div class="site-container">
+                                <div class="newsHeader a-Opacity is-Opacity">
+                                    <h3 class="teractionTitle">
+                                        <a href="#" class="teractionTitle-text">News</a>
+                                    </h3>
+                                </div>
+                                <!-- newsHeader a-Opacity is-Opacity -->
+                                <div class="newsSlide a-Opacity is-Opacity">
+                                    <div class="slide-container newsSlide-container">
+                                        <div class="swiper-wrapper newsSlide-wrapper">
+                                            <div class="swiper-slide newsSlide-item">
+                                                <div class="DefaultPost">
+                                                    <a href="#" class="DefaultPost-link">
+                                                        <div class="DefaultPostThumnail">
+                                                            <span class="DefaultPostThumnail-inner">
+                                                                <!-- <img class="DefaultPostThumnail-img lazy" data-aos="fade-up" src="img/deepfake.png" alt="deepfake"> -->
+                                                                <img class="DefaultPostThumnail-img lazy" src="img/deepfake.png"
+                                                                    alt="deepfake">
+                                                            </span>
+                                                        </div>
+                                                        <!-- DefaultPostThumnail -->
+                                                        <div class="DefaultPostCont">
+                                                            <h4 class="DefaultPostCont-title">
+                                                                <span class="DefaultPostCont-text">시청자미디어재단, 국내최초 도서지역 <br>딥페이크
+                                                                    예방 등
+                                                                    찾아가는 미디어 교육, 청소년들을 대상으로 딥페이크 예방교육을 실시한다.</span>
+                                                            </h4>
+                                                            <div class="DefaultPostCont-date">2024. 10. 22.</div>
+                                                        </div>
+                                                        <!-- DefaultPostCont -->
+                                                    </a>
+                                                </div>
+                                                <!-- DefaultPost -->
+                                            </div>
+                                            <!-- swiper-slide newsSlide-item -->
+                                            <div class="swiper-slide newsSlide-item">
+                                                <div class="DefaultPost">
+                                                    <a href="#" class="DefaultPost-link">
+                                                        <div class="DefaultPostThumnail">
+                                                            <span class="DefaultPostThumnail-inner">
+                                                                <img class="DefaultPostThumnail-img lazy" src="img/AInews.jpg"
+                                                                    alt="AI">
+                                                            </span>
+                                                        </div>
+                                                        <!-- DefaultPostThumnail -->
+                                                        <div class="DefaultPostCont">
+                                                            <h4 class="DefaultPostCont-title">
+                                                                <span class="DefaultPostCont-text">정부가 인공 지능 (AI)에 대한 산업을
+                                                                    넓<br>혔다..!
+                                                                    강원특별자치도, 미래 먹거리인 인공 지능(AI) 산업 집중·육성</span>
+                                                            </h4>
+                                                            <div class="DefaultPostCont-date">2024. 10. 21.</div>
+                                                        </div>
+                                                        <!-- DefaultPostCont -->
+                                                    </a>
+                                                </div>
+                                                <!-- DefaultPost -->
+                                            </div>
+                                            <!-- swiper-slide newsSlide-item -->
+                                            <div class="swiper-slide newsSlide-item">
+                                                <div class="DefaultPost">
+                                                    <a href="#" class="DefaultPost-link">
+                                                        <div class="DefaultPostThumnail">
+                                                            <span class="DefaultPostThumnail-inner">
+                                                                <img class="DefaultPostThumnail-img lazy"
+                                                                    src="img/computer-use.jpg" alt="conputerUse">
+                                                            </span>
+                                                        </div>
+                                                        <!-- DefaultPostThumnail -->
+                                                        <div class="DefaultPostCont">
+                                                            <h4 class="DefaultPostCont-title">
+                                                                <span class="DefaultPostCont-text">마우스 움직이고, 정보 검색하고.. 지난<br>날,
+                                                                    사람처럼
+                                                                    컴퓨터 사용하는 AI가 세상에 공개 되었다. 앤스로픽의 새로운 AI, '컴퓨터 유스'</span>
+                                                            </h4>
+                                                            <div class="DefaultPostCont-date">2024. 10. 20.</div>
+                                                        </div>
+                                                        <!-- DefaultPostCont -->
+                                                    </a>
+                                                </div>
+                                                <!-- DefaultPost -->
+                                            </div>
+                                            <!-- swiper-slide newsSlide-item -->
+                                        </div>
+                                        <!-- swiper-wrapper newsSlide-wrapper -->
+                                    </div>
+                                    <!-- slide-container newsSlide-container -->
+                                </div>
+                                <!-- newsSlide a-Opacity is-Opacity -->
+                            </div>
+                            <!-- site-container -->
+                        </div>
+                        <!-- #scrollSection .news -->
+                    </section>
+                    <!-- s3 -->
+                    <section class="s3">
+                        <div class="Careers" style="display: block;">
+                            <div class="site-container">
+                                <div class="MainHeader a-Opacity is-Opacity">
+                                    <h3 class="teractionTitle">
+                                        <a href="#" class="teractionTitle-text">Careers</a>
+                                    </h3>
+                                </div>
+                                <!-- newsHeader a-Opacity is-Opacity -->
+                                <div class="CareesSlide a-Opacity is-Opacity">
+                                    <div class="slide-container CareesSlide-container">
+                                        <div class="swiper-wrapper CareesSlide-wrapper">
+                                            <!-- CareesSilde-item -->
+                                            <div class="swiper-slide CareesSlide-item">
+                                                <div class="ArrowPost">
+                                                    <a href="#" class="ArrowPost-link">
+                                                        <div class="ArrowPostThumnail">
+                                                            <span class="ArrowPostThumnail-inner">
+                                                                <img class="ArrowPostThumnail-img lazy" src="img/carees2.jpg"
+                                                                    alt="PEOPLE&LIFE">
+                                                            </span>
+                                                        </div>
+                                                        <!-- DefaultPostThumnail -->
+                                                        <div class="ArrowPostCont">
+                                                            <h4 class="ArrowPostCont-title">
+                                                                <span class="ArrowPostCont-text">PEOPLE&LIFE</span>
+                                                            </h4>
+                                                            <p class="ArrowPostCont-sub">자유로운 소통과 활발한 교류를 바탕으로 에이브만의 문화를 만들어 갑니다.
+                                                            </p>
+                                                            <span class="mainScroll-arrow"></span>
+                                                            <!-- <div class="ArrowPostCont-arrow"></div> -->
+                                                        </div>
+                                                        <!-- DefaultPostCont -->
+                                                    </a>
+                                                </div>
+                                                <!-- DefaultPost -->
+                                            </div>
+                                            <!-- swiper-slide newsSlide-item -->
+                                            <!-- CareesSilde-item -->
+                                            <div class="swiper-slide CareesSlide-item">
+                                                <div class="ArrowPost">
+                                                    <a href="#" class="ArrowPost-link">
+                                                        <div class="ArrowPostThumnail">
+                                                            <span class="ArrowPostThumnail-inner">
+                                                                <img class="ArrowPostThumnail-img lazy" src="img/carees1.jpg"
+                                                                    alt="AIVIBE RECRU">
+                                                            </span>
+                                                        </div>
+                                                        <!-- DefaultPostThumnail -->
+                                                        <div class="ArrowPostCont">
+                                                            <h4 class="ArrowPostCont-title">
+                                                                <span class="ArrowPostCont-text">AIVIBE RECRU</span>
+                                                            </h4>
+                                                            <p class="ArrowPostCont-sub">에이브의 최신 채용공고를 살펴보세요.</p>
+                                                            <span class="mainScroll-arrow"></span>
+                                                            <!-- <div class="ArrowPostCont-arrow"></div> -->
+                                                        </div>
+                                                        <!-- DefaultPostCont -->
+                                                    </a>
+                                                </div>
+                                                <!-- DefaultPost -->
+                                            </div>
+                                            <!-- swiper-slide newsSlide-item -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section class="s4"> -->
+                    <div class="MainTool a-BlackBg">
+                        <div class="MainToolInner">
+                            <!-- MainContent Header -->
+                            <div class="MainToolHeader">
+                                <div class="site-container MainToolHeader-Inner">
+                                    <h3 class="MainToolHeader-title">
+                                        <a class="MainToolHeader-link" href="#">AIVIBE Tool</a>
+                                    </h3>
+                                    <div class="swiper-button-prev MainToolSlide-prev swiper-button-disabled"></div>
+                                    <div class="swiper-button-next MainToolSlide-next"></div>
+                                </div>
+                            </div>
+                            <!-- MainTool Slide -->
+                            <div class="MainToolSlide a-Opacity is-Opacity">
+                                <div class="site-container MainToolSlide-Inner">
+                                    <!-- slide -->
+                                    <div
+                                        class="swiper-container MainToolSlide-container swiper-container-initialized swiper-container-horizontal">
+                                        <div class="swiper-wrapper MainToolSlide-wrapper"
+                                            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                            <!--swiper-slide-active -->
+                                            <div class="swiper-slide MainToolSlide-item swiper-slide-active">
+                                                <div class="MainToolSlidePost">
+                                                    <a href="#" class="MainToolSlidePost-link">
+                                                        <div class="MainToolSlidePostThumbnail">
+                                                            <div class="MainToolSlidePostThumbnail-inner">
+                                                                <img class="MainToolSlidePostThumbnail-img lazy"
+                                                                    src="img/design.jpg" alt="design">
+                                                            </div>
+                                                            <h5 class="MainToolSlidePostThumbnail-title">DESIGN</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--swiper-slide-active -->
+                                            <!--swiper-slide-next -->
+                                            <div class="swiper-slide MainToolSlide-item swiper-slide-next">
+                                                <div class="MainToolSlidePost">
+                                                    <a href="#" class="MainToolSlidePost-link">
+                                                        <div class="MainToolSlidePostThumbnail">
+                                                            <div class="MainToolSlidePostThumbnail-inner">
+                                                                <img class="MainToolSlidePostThumbnail-img lazy"
+                                                                    src="img/Painting.jpg" alt="Painting">
+                                                            </div>
+                                                            <h5 class="MainToolSlidePostThumbnail-title">PAINTING</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--swiper-slide-next -->
+                                            <div class="swiper-slide MainToolSlide-item">
+                                                <div class="MainToolSlidePost">
+                                                    <a href="#" class="MainToolSlidePost-link">
+                                                        <div class="MainToolSlidePostThumbnail">
+                                                            <div class="MainToolSlidePostThumbnail-inner">
+                                                                <img class="MainToolSlidePostThumbnail-img lazy"
+                                                                    src="img/COMPOSING.jpg" alt="COMPLIANCE">
+                                                            </div>
+                                                            <h5 class="MainToolSlidePostThumbnail-title">COMPLIANCE</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--MainToolSlide-item -->
+                                            <div class="swiper-slide MainToolSlide-item">
+                                                <div class="MainToolSlidePost">
+                                                    <a href="#" class="MainToolSlidePost-link">
+                                                        <div class="MainToolSlidePostThumbnail">
+                                                            <div class="MainToolSlidePostThumbnail-inner">
+                                                                <img class="MainToolSlidePostThumbnail-img lazy"
+                                                                    src="img/picture.jpg" alt="picture">
+                                                            </div>
+                                                            <h5 class="MainToolSlidePostThumbnail-title">PICTURE</h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!--MainToolSlide-item -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- s4 -->
+                    <section class="s4">
+                        <div class="orther">
+                            <div class="site-container">
+                                <div class="MainOrtherHeader a-Opacity is-Opacity">
+                                    <h3 class="MainInteractionTitle">
+                                        <a href="#" class="MainInteractionTitle-text">Try Orther AI</a>
+                                        <a href="#" class="MainIRTitle-link">
+                                            <span class="ab-text">More</span>
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="MainOrtherCard a-Opacity is-Opacity">
+                                    <div class="MainOrtherCard a-Opacity is-Opacity">
+                                        <ul class="MainOrtherCard-lisk">
+                                            <li class="MainOrtherCard-item is-Active" data-color="#FFB800">
+                                                <div class="MainOrtherCardtItem Chat">
+                                                    <a href="#" class="MainOrtherCardItem-link">
+                                                        <div class="MainOrtherCardItemLogo">
+                                                            <span class="MainOrtherCardItemLogo-img"></span>
+                                                        </div>
+                                                        <div class="MainOrtherCardItemCont">
+                                                            <h4 class="MainOrtherCardItemCont-title" >AIVibe Chat</h4>
+                                                            <p class="MainOrtherCardItemCont-text" >즉각적인 답변과 더 큰 생산성과<br> 끝없는 영감을 위해서</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="MainOrtherCard-item is-Active" data-color="#1E82FF">
+                                                <div class="MainOrtherCardtItem code">
+                                                    <a href="#" class="MainOrtherCardItem-link">
+                                                        <div class="MainOrtherCardItemLogo">
+                                                            <span class="MainOrtherCardItemLogo-img"></span>
+                                                        </div>
+                                                        <div class="MainOrtherCardItemCont">
+                                                            <h4 class="MainOrtherCardItemCont-title" >AIVibe Canvar</h4>
+                                                            <p class="MainOrtherCardItemCont-text" >개발자를 위해 탄생한 코딩하는<br> 새로운 방식의 Canvar.</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="MainOrtherCard-item is-Active" data-color="#FF5C39">
+                                                <div class="MainOrtherCardtItem video">
+                                                    <a href="#" class="MainOrtherCardItem-link">
+                                                        <div class="MainOrtherCardItemLogo">
+                                                            <span class="MainOrtherCardItemLogo-img"></span>
+                                                        </div>
+                                                        <div class="MainOrtherCardItemCont">
+                                                            <h4 class="MainOrtherCardItemCont-title" >AIVibe Blackburst</h4>
+                                                            <p class="MainOrtherCardItemCont-text" >Blackburst로 게임이나 동영상,영화 등<br> AI의 한계에 도전해보세요!</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="MainOrtherCard-item is-Active" data-color="#3DCFA8">
+                                                <div class="MainOrtherCardtItem work">
+                                                    <a href="#" class="MainOrtherCardItem-link">
+                                                        <div class="MainOrtherCardItemLogo">
+                                                            <span class="MainOrtherCardItemLogo-img"></span>
+                                                        </div>
+                                                        <div class="MainOrtherCardItemCont">
+                                                            <h4 class="MainOrtherCardItemCont-title is-Active" >AIVibe Business</h4>
+                                                            <p class="MainOrtherCardItemCont-text" >이젠 훨씬 똑똑해진 에이브 비서한테<br> 비즈니스 업무도 맡겨보세요!</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- section end -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="top-btn is-Open is-Stop">
+            <span class="ab-text">TOP</span>
+        </a>
+        <footer id="colophon" class="site-footer">
+            
+            <div class="footer-container">
+                <!-- FooterSiteNenu -->
+                <div class="footerSiteMenu">
+                    <div class="footerSiteUrl">
+                        <div class="menu-footerlink-container">
+                            <ul id="menu-footerlink" class="menu">
+                                <li class="menu-item">
+                                    <a href="#">찾아오시는 길</a>
+                                </li>
+                                <li class="text-bold menu-item">
+                                    <a href="#">개인정보처리방침</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">문의하기</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">열림신고제도</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerSiteSNS">
+                        <div class="menu-footersns-container">
+                            <ul id="menu-footersns" class="menu">
+                                <li class="menu-item ico-blog"><a href="#">Blog</a></li>
+                                <li class="menu-item ico-youtube"><a href="#">YouTube</a></li>
+                                <li class="menu-item ico-instagram"><a href="#">Instagram</a></li>
+                                <li class="menu-item ico-facebook"><a href="#">FaceBook</a></li>
+                                <li class="menu-item ico-LinkedIn"><a href="#">LinkendIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerCopy">
+                    <div class="family is-Open">
+                        <a href="#" class="family-text">Family Site</a>
+                        <div class="menu-familylist">
+                            <div class="menu-family-container">
+                                <ul id="menu-family" class="menu">
+                                    <li class="menu-item"><a target="_blank" rel="noopener" href="#">AIart</a></li>
+                                    <li class="menu-item"><a target="_blank" rel="noopener" href="#">AIchat</a></li>
+                                    <li class="menu-item"><a target="_blank" rel="noopener" href="#">AIhealth</a></li>
+                                    <li class="menu-item"><a target="_blank" rel="noopener" href="#">AIcook</a></li>
+                                    <li class="menu-item"><a target="_blank" rel="noopener" href="#">AIwork</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footerInfo">
+                        <div class="footerInfo_logo">
+                            <span class="ab-text">AIVIBE</span>
+                        </div>
+                        <div class="footerCopy-text">ⓒ 2024 AIVIBE, Inc. All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- wrap -->
+    <script>
+        // 스크롤 감지해서 애니메이션 활성화
+        document.addEventListener("DOMContentLoaded", function () {
+            gsap.registerPlugin(ScrollTrigger);
+
+            gsap.fromTo(
+                ".DefaultPostThumnail-inner",
+                { opacity: 0, y: 50 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.5,
+                    ease: "power2.out",
+                    stagger: 0.2, // 각 요소 간 0.1초 간격
+                    scrollTrigger: {
+                        trigger: ".newsSlide-container", // 스크롤 트리거 기준 요소
+                        start: "top 80%", // 화면의 80% 위치에 도달할 때 시작
+                        toggleActions: "play none none none",
+                    },
+                }
+            );
+
+            gsap.registerPlugin(ScrollTrigger);
+
+            gsap.fromTo(
+                ".ArrowPostThumnail-inner",
+                { opacity: 0, y: 50 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.8,
+                    ease: "power2.out",
+                    stagger: 0.2, // 각 요소 간 0.1초 간격
+                    scrollTrigger: {
+                        trigger: ".CareesSlide-container", // 스크롤 트리거 기준 요소
+                        start: "top 80%", // 화면의 80% 위치에 도달할 때 시작
+                        toggleActions: "play none none none",
+                    },
+                }
+            );
+
+            // GSAP 및 ScrollTrigger 플러그인 등록
+            gsap.registerPlugin(ScrollTrigger);
+
+            // 배경색 변경 애니메이션 설정
+            ScrollTrigger.create({
+                trigger: "#main > div.MainTool.a-BlackBg", // 타겟 요소
+                start: "top center", // 요소의 상단이 화면 중앙에 도달할 때
+                end: ".s4",
+                onEnter: () => document.body.style.backgroundColor = "black", // 요소가 들어왔을 때
+                onLeave: () => document.body.style.backgroundColor = "", // 요소가 나갈 때 기본값으로
+                onEnterBack: () => document.body.style.backgroundColor = "black", // 다시 들어올 때
+                onLeaveBack: () => document.body.style.backgroundColor = "" // 다시 나갈 때 기본값으로
+            });
+            gsap.registerPlugin(ScrollTrigger);
+
+            ScrollTrigger.create({
+                trigger: "#main > div.MainTool.a-BlackBg",
+                start: "top center",
+                end: ".s4",
+                onEnter: () => {
+                    document.querySelector("#main > div.MainTool.a-BlackBg > div > div.MainToolHeader > div > h3 > a").style.color = "white"; // 들어왔을 때 색상 변경
+                },
+                onLeave: () => {
+                    document.querySelector("#main > div.MainTool.a-BlackBg > div > div.MainToolHeader > div > h3 > a").style.color = ""; // 나갈 때 기본값으로
+                },
+                onEnterBack: () => {
+                    document.querySelector("#main > div.MainTool.a-BlackBg > div > div.MainToolHeader > div > h3 > a").style.color = "white"; // 다시 들어올 때 색상 변경
+                },
+                onLeaveBack: () => {
+                    document.querySelector("#main > div.MainTool.a-BlackBg > div > div.MainToolHeader > div > h3 > a").style.color = ""; // 다시 나갈 때 기본값으로
+                }
+            });
+            gsap.registerPlugin(ScrollTrigger);
+
+            // 배경색 변경 애니메이션 설정
+            ScrollTrigger.create({
+                trigger: "#main > div.MainTool.a-BlackBg", // 타겟 요소
+                start: "top center", // 요소의 상단이 화면 중앙에 도달할 때
+                end: ".s4",
+                onEnter: () => {
+                    document.body.style.backgroundColor = "black"; // 배경색 검정
+                    document.querySelector('header').style.backgroundColor = "black"; // 해더 배경색 검정
+                },
+                onLeave: () => {
+                    document.body.style.backgroundColor = ""; // 배경색 기본값
+                    document.querySelector('header').style.backgroundColor = ""; // 해더 배경색 기본값
+                },
+                onEnterBack: () => {
+                    document.body.style.backgroundColor = "black"; // 다시 들어올 때 검정
+                    document.querySelector('header').style.backgroundColor = "black"; // 해더 배경색 검정
+                },
+                onLeaveBack: () => {
+                    document.body.style.backgroundColor = ""; // 다시 나갈 때 기본값
+                    document.querySelector('header').style.backgroundColor = ""; // 해더 배경색 기본값
+                }
+            });
+            
+            gsap.registerPlugin(ScrollTrigger);
+
+            ScrollTrigger.create({
+                trigger: "#main > div.MainTool.a-BlackBg", // 특정 섹션
+                start: "top center", // 섹션의 상단이 화면 중앙에 도달할 때
+                end: ".s4", // 섹션의 하단이 화면 중앙에 도달할 때까지
+                onEnter: () => {
+                    $(".top-btn").addClass("Bg-black"); // 구간 진입 시 반전 클래스 추가
+                },
+                onLeave: () => {
+                    $(".top-btn").removeClass("Bg-black"); // 구간 벗어날 때 클래스 제거
+                },
+                onEnterBack: () => {
+                    $(".top-btn").addClass("Bg-black"); // 다시 구간 진입 시 반전 클래스 추가
+                },
+                onLeaveBack: () => {
+                    $(".top-btn").removeClass("Bg-black"); // 구간 뒤로 벗어날 때 클래스 제거
+                }
+            });
+
+
+            
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    height: '1080',
+                    width: '1920',
+                    videoId: 'iVw5CIgLhVM',
+                    playerVars: { 
+                        'autoplay': 1,
+                        'controls': 0,
+                        'loop': 1,
+                        'playlist': 'iVw5CIgLhVM',
+                        'mute': 1
+                    },
+                    events: {
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+            function onPlayerStateChange(event) {
+                if (event.data === YT.PlayerState.ENDED) {
+                    player.seekTo(0);
+                }
+            }
+            
+        });
+
+    </script>
+</body>
+
+</html>
